@@ -587,3 +587,79 @@ footer {
         font-size: 1.2rem;
     }
 }
+
+/* Download Buttons */
+.download-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.download-btn {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.download-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.ios-btn {
+    background: linear-gradient(135deg, #000000, #333333);
+}
+
+.android-btn {
+    background: linear-gradient(135deg, #3DDC84, #0F9D58);
+}
+
+.download-btn i {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.btn-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-text .small {
+    font-size: 10px;
+    opacity: 0.9;
+}
+
+.btn-text .store {
+    font-size: 16px;
+}
+
+/* Delivery Partners */
+.delivery-partners {
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.partner-icons {
+   display: flex;
+    justify-content: left;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.partner-icon {
+    display: inline-block;
+    padding: 8px;
+    background: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.partner-icon:hover {
+    transform: scale(1.1);
+}

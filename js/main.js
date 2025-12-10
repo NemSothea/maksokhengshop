@@ -4,7 +4,7 @@ const foodItems = [
         name: "Amok Trey", 
         khName: "អាម៉ុកត្រី", 
         description: "Steamed fish curry with coconut milk and herbs",
-        originalPrice: 8.99,
+        originalPrice: 3.50,
         discount: 20,
         rating: 4.8, 
         img: "https://asianinspirations.com.au/wp-content/uploads/2023/07/TA-26.jpg", 
@@ -15,7 +15,7 @@ const foodItems = [
         name: "Bai Sach Chrouk", 
         khName: "បាយសាច់ជ្រូក", 
         description: "Grilled pork with rice and pickled vegetables",
-        originalPrice: 6.50,
+        originalPrice: 3.50,
         discount: 15,
         rating: 4.6, 
         img: "https://i.pinimg.com/1200x/53/96/6f/53966f25b8fcb091420507cac455b589.jpg", 
@@ -26,7 +26,7 @@ const foodItems = [
         name: "Nom Banh Chok", 
         khName: "នំបញ្ចុក", 
         description: "Rice noodles with fish-based green curry",
-        originalPrice: 5.99,
+        originalPrice: 3.50,
         discount: 10,
         rating: 4.7, 
         img: "https://i.pinimg.com/1200x/d3/b1/30/d3b130cac83df1091ccec611e3c03fef.jpg", 
@@ -37,7 +37,7 @@ const foodItems = [
         name: "Samlor Machu Trey", 
         khName: "សម្លម្ជូរត្រី", 
         description: "Sour fish soup with vegetables and tamarind",
-        originalPrice: 9.99,
+        originalPrice: 3.50,
         discount: 25,
         rating: 4.5, 
         img: "https://i.pinimg.com/1200x/2a/0d/d5/2a0dd503699fb7d2d1bc036f8dcd3740.jpg", 
@@ -48,7 +48,7 @@ const foodItems = [
         name: "Lok Lak", 
         khName: "ឡុកឡាក់", 
         description: "Stir-fried beef with lime pepper sauce",
-        originalPrice: 12.99,
+        originalPrice: 3.50,
         discount: 18,
         rating: 4.9, 
         img: "https://i.pinimg.com/1200x/da/71/53/da71533386a64ddd152e1a29db447485.jpg", 
@@ -59,7 +59,7 @@ const foodItems = [
         name: "Kuy Teav", 
         khName: "គុយទាវ", 
         description: "Pork broth rice noodle soup with herbs",
-        originalPrice: 4.99,
+        originalPrice: 3.50,
         discount: 5,
         rating: 4.4, 
         img: "https://i.pinimg.com/1200x/d9/56/64/d95664a559ef1ef0611c9623f05a55f8.jpg", 
@@ -70,7 +70,7 @@ const foodItems = [
         name: "Prahok Ktis", 
         khName: "ប្រហុកក្តិត", 
         description: "Prahok dip with pork and coconut milk",
-        originalPrice: 7.50,
+        originalPrice: 3.50,
         discount: 12,
         rating: 4.3, 
         img: "https://i.pinimg.com/1200x/48/61/22/486122197e69c453cbfdabe9f5d72096.jpg", 
@@ -81,7 +81,7 @@ const foodItems = [
         name: "Cha Knhey", 
         khName: "ឆាខ្ញី", 
         description: "Stir-fried ginger with chicken or beef",
-        originalPrice: 10.99,
+        originalPrice: 3.50,
         discount: 20,
         rating: 4.4, 
         img: "https://i.pinimg.com/736x/de/14/67/de1467716d1c81d6004de3504b646985.jpg", 
@@ -95,8 +95,8 @@ const foodItems = [
         name: "Plea Sach Ko", 
         khName: "ភ្លាសាច់គោ", 
         description: "Beef salad with lime, herbs and vegetables",
-        originalPrice: 8.50,
-        discount: 18,
+        originalPrice: 3.50,
+        discount: 20,
         rating: 4.4, 
         img: "https://i.pinimg.com/1200x/ef/82/fe/ef82fe3b829fe2474feff42cee3a6f4a.jpg", 
         special: false,
@@ -432,7 +432,7 @@ document.addEventListener('DOMContentLoaded', function() {
             caption1.querySelector('h3').innerHTML = '<span class="lang-kh">អាម៉ុកត្រី</span><span class="lang-en">Amok Trey</span>';
             caption1.querySelectorAll('p')[0].textContent = 'Steamed fish curry with coconut milk and herbs';
             caption1.querySelectorAll('p')[1].textContent = 'Traditional Khmer fish curry steamed in banana leaves';
-            caption1.querySelector('.h4').innerHTML = '$7.19 <small class="text-decoration-line-through text-muted">$8.99</small>';
+            caption1.querySelector('.h4').innerHTML = '$3.50 <small class="text-decoration-line-through text-muted">$8.99</small>';
         }
         
         // Second carousel item - Lok Lak
@@ -442,7 +442,7 @@ document.addEventListener('DOMContentLoaded', function() {
             caption2.querySelector('h3').innerHTML = '<span class="lang-kh">ឡុកឡាក់</span><span class="lang-en">Lok Lak</span>';
             caption2.querySelectorAll('p')[0].textContent = 'Stir-fried beef with lime pepper sauce';
             caption2.querySelectorAll('p')[1].textContent = 'Cambodian-style beef stir-fry with Kampot pepper';
-            caption2.querySelector('.h4').innerHTML = '$10.65 <small class="text-decoration-line-through text-muted">$12.99</small>';
+            caption2.querySelector('.h4').innerHTML = '$3.50 <small class="text-decoration-line-through text-muted">$12.99</small>';
         }
     }
 });
